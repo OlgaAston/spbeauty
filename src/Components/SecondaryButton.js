@@ -9,7 +9,7 @@ function SecondaryButton(props) {
         border: 1px solid #64748B;
         border-radius: 24 px;
         min-width: ${minWidth};
-        color: #152842;
+        color: #64748B;
         &:hover {
             background: none;
             border: none
