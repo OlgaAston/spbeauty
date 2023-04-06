@@ -16,10 +16,14 @@ const Select = styled.select`
     }
 `;
 
+const MText = styled.text`
+color: #94A3B8;
+`;
+
 function TitledSelector({title, options}) {
     const Title = title === undefined ? 
         (<div></div>) : 
-        (<div>{title}</div>);
+        (<MText className="caption">{title}</MText>);
     return (
         <div className='d-flex flex-column gap-2'>
             {Title}
