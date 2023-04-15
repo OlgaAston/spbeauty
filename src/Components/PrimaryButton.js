@@ -12,10 +12,14 @@ function PrimaryButton(props) {
         min-width: ${minWidth};
         color: white;
         &:hover {
-            background: #4D9FF0 80%;
+            background: #4D9FF0;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
         }
         &:active {
-            background: #0F172A 80%;
+            background: #0F172A;
+            opacity: 0.6;
+            filter: alpha(opacity=60);
         }
     `;
     return (
